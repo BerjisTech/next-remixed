@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "next/core-web-vitals"
+    // "eslint:recommended"
+  ],
+  "rules": {
+    "react/no-unescaped-entities": "off",
+    "react-hooks/exhaustive-deps": "off", // Warn if effect dependencies are missing
+    // "react-hooks/rules-of-hooks": "error" // Enforce hooks rules
+    "unused-imports/no-unused-imports": "error",
+    "tailwindcss/no-contradicting-classname": "error"
+  },
+  "plugins": ["unused-imports", "tailwindcss"]
+}
